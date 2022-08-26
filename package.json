@@ -2,20 +2,20 @@
   "name": "hw9",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/hw9",
+  "homepage": "https://serzh2577.github.io/hw9",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw9/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/hw9.git"
+    "url": "git+https://github.com/serzh2577/hw9.git"
   },
   "keywords": [],
   "author": "eliarr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/hw9/issues"
+    "url": "https://github.com/serzh2577/hw9/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
