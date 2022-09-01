@@ -10,9 +10,69 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 15px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+input {
+  padding: 10px 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: rgb(181, 255, 145);
+  cursor: pointer;
+}
+
+.btn-disabled {
+  border-radius: 3px;
+  background-color: rgb(255, 193, 193);
+  cursor: auto;
+}
+
+.timer {
+  display: flex;
+  margin: 20px;
+}
+
+.field {
+  text-align: center;
+  margin-right: 40px;
+}
+
+.value {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 18;
+  font-weight: 200;
+}
+
+.input-promis {
+  display: block;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.btn-promise {
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: rgba(164, 255, 119, 0.583);
+  cursor: pointer;
 }
